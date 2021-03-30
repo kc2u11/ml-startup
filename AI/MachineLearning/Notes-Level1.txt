@@ -1,0 +1,8 @@
+Windows command prompt > anaconda navigator 
+When the window launches, select spyder IDE 
+Recommended version as of 5/7
+	Anaconda 4.20 with Python 3.5 installed 
+	
+http://cran.r-project.org/
+https://www.rstudio.com/	
+

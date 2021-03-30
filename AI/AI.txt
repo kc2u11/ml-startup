@@ -1,0 +1,67 @@
+Package Manager 
+	Conda 
+		Package, dependency and environment management for any language---Python, R, Ruby, Lua, Scala, Java, JavaScript, C/ C++, FORTRAN
+Python libraries 
+	Pandas 
+	Scikit-Learn
+	Keras for working with Deep Learning models 
+	TensorFlow - DL backend that Keras is using 
+
+Conda can be combined with continuous integration systems such as Travis CI and AppVeyor to provide frequent, automated testing of your code
+
+conda install pandas scikit-learn keras
+
+check if all is installed properly 
+
+import pandas 
+import sklearn 
+import keras
+
+https://bit.ly/ai-for-finance-intor 
+https://kubakonczyk.com/aff-intro
+
+https://skymind.ai/wiki/multilayer-perceptron
+https://skymind.ai/wiki/lstm
+https://machinelearningmastery.com/gentle-introduction-xgboost-applied-machine-learning/
+
+
+https://github.com/conda/conda/issues/8046
+
+I used the following workaround:
+
+installed conda 4.5.11
+installed with openssl conda install openssl
+added openssl to PATH
+updated conda conda update conda
+updated everything else conda update --all
+
+
+https://github.com/conda/conda/issues/4930
+
+SET variable
+REQUESTS_CA_BUNDLE: C:\ProgramData\Anaconda3\Lib\site-packages\certifi\cacert.pem
+
+Set full permissions on Anaconda folder
+
+That SSL error is misleading. I am using Anaconda 3, conda version 4.6.11, have the most current version of openssl on a Windows 10 instance. I got the issue resolved by changing the security settings on the Anaconda3 folder to Full Control. 
+Don't think this helped, but I also have modified the ..\Anaconda3\Lib\site-packages\certifi\cacert.pem file to include the company's SSL cert. Instructions are here. 
+https://stackoverflow.com/questions/33699577/conda-update-failed-ssl-error-ssl-certificate-verify-failed-certificate-ver
+http://blog.majcica.com/2016/12/27/installing-self-signed-certificates-into-git-cert-store/
+
+investing.com 
+Download data 
+Currency rates, stock indexes 
+
+https://wiki.python.org/moin/IntroductoryBooks
+
+Python and Data Science : A Practical Guide [Video]
+
+Statistics and Visualization 
+
+Web scraping 
+
+Analyzing text 
+
+Introduction to ML 
+
+

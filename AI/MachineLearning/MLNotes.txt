@@ -1,0 +1,10 @@
+inductive versus deductive reasoning
+	Programming is deductive, but machine learning is not. It is inductive. 
+	Induction starts with observation while deduction starts with a hypothesis 
+Weapons of Math Destruction 
+
+3 classes pf machine learning algo 
+	Supervised learning 
+	
+Triangle inequality 
+	Distance functions will satisfy the tranac
